@@ -1,7 +1,5 @@
-package main
+package piscine
 
-import "fmt"
-
-func main() {
-	fmt.Println("hello world ! <3")
+func SwapBits(octet byte) byte {
+	return octet<<4 | octet>>4
 }
