@@ -1,21 +1,17 @@
 package main
 
-import (
-	"fmt"
-	"os"
-)
+import "fmt"
 
 func main() {
-	fmt.Println(os.Args[1])
+	fmt.Println("aBcDeFgHiJkLmNoPqRsTuVwXyZ")
 }
-
 
 /*
 z01 Solution
 
 func main(){
 
-	for _, k:= range os.Args[1]{
+	for _, k:= range "aBcDeFgHiJkLmNoPqRsTuVwXyZ"{
 	z01.PrintRune(k)
 	}
 z01.PrintRune('\n')

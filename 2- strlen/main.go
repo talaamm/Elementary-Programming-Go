@@ -1,7 +1,11 @@
 package main
 
-import "fmt"
+func StrLen(s string) int {
+	return len(s)
+}
 
-func main() {
-	fmt.Println("hello world ! <3")
+//////for exam where they want only to count the runes(letters in ascii tbl)
+
+func StrLen2(s string) int {
+	return len([]rune(s))
 }
