@@ -6,4 +6,7 @@ I tried to include some explanations. If you need further help, please reach out
 Gmail: tala.aunv@gmail.com
 Discord: @talaamm_
 
+Note: you can find the questions here: https://github.com/01-edu/public/tree/master/subjects
+By searching the questions name (which is also the file's name).
+
 Hope you find it helpful & useful!
