@@ -2,6 +2,11 @@ package main
 
 import "fmt"
 
-func main() {
-	fmt.Println("hello world ! <3")
+func ReduceInt(a []int, f func(int, int) int) {
+	sum := f(a[0], a[1])
+	a = a[2:]
+	for i := range a {
+		sum = f(sum, a[i])
+	}
+	fmt.Println(sum)
 }

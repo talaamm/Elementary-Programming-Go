@@ -1,1 +1,0 @@
-return the last char in a string

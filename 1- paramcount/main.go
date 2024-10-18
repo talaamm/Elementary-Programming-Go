@@ -13,7 +13,7 @@ func main() {
 z01 Solution
 
 ***Note: the test cases won't check for a "os.Args" with length more than 15
-
+*** this is the simplest solution you could find :)
 func main(){
 length:= len(os.Args)-1
 

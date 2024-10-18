@@ -1,13 +1,10 @@
 package main
 
-func addPrimeSum(n int) int {
-	sum := 0
-	for i := n; i >= 1; i-- {
-		if isPrime(i) {
-			sum += i
-		}
+func findPrevPrime(n int) int {
+	for !isPrime(n) {
+		n--
 	}
-	return sum
+	return n
 }
 
 func isPrime(nb int) bool {

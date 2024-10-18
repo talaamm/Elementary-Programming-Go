@@ -13,14 +13,17 @@ func main() {
 
 	sum := 1 // equals 1 because we are multiplying.   (number) * 0 = 0   so  sum = 1
 
-	mynum, _ := strconv.Atoi(arg1) //convert the number from string to int
+	mynum, e := strconv.Atoi(arg1) //convert the number from string to int
+	if e != nil {
+		return
+	}
 
 	for sum < mynum {
 		// while the number we are calculating is less than the given number, keep multiplying 2 by itself
 		// at some point the number will get equal to or higher than the given number
 		// at this point the loop will stops multiplying 2 by itslef
 
-		sum = 2 * sum
+		sum *= 2
 
 		// assume   mynum = 16
 		// sum = 1

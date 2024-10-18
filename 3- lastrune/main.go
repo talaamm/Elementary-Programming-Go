@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
-func main() {
-	fmt.Println("hello world ! <3")
+func LastRune(s string) rune {
+	return rune(s[len(s)-1])
 }

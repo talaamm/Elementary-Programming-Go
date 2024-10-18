@@ -5,7 +5,7 @@ import (
 	"os"
 	"strconv"
 )
-
+//if it only asks for a function write this down below
 func gcd(a, b int) int {
 	//notice this is a **for** not if
 	for a != b {
