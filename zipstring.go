@@ -1,7 +1,7 @@
 package main
 
 import "strconv"
-
+//01 solution that we all use
 func countDuplication(s string, i int) int {
 	var count int = 0
 	for _, v := range s[i:] {
